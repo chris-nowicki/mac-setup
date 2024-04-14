@@ -40,15 +40,13 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 
 I am using a 2021 16" MacBook Pro
 
-The specs for both machines:
+The specs:
 
 - Apple M1 Pro Max
 - 64GB RAM
 - 2TB SSD
 
-Read more about these Macbooks here:
-
-- [2021](https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-m1-max-10-core-cpu-24-core-gpu-16-2021-specs.html)
+Read more about my MacBook [here](https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-m1-max-10-core-cpu-24-core-gpu-16-2021-specs.html).
 
 ## OS Settings
 
