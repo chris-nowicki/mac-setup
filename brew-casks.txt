@@ -2,15 +2,11 @@ iterm2
 raycast
 rectangle
 alt-tab
-android-file-transfer
-android-platform-tools
 keepingyouawake
 discord
 slack
 vlc
 keka
 kap
-time-out
 figma
 visual-studio-code
-sublime-text
