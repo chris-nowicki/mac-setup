@@ -12,6 +12,7 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
   - [Finder](#finder)
   - [Dock](#dock)
 - [Quick Launching](#quick-launching)
+  - [RayCast Plugins](#raycast-plugins)
 - [Homebrew](#homebrew)
   - [Homebrew](#homebrew-1)
   - [RayCast Homebrew Plugin](#raycast-homebrew-plugin)
@@ -104,6 +105,12 @@ I use [RayCast](https://www.raycast.com/).
 ```sh
 brew install raycast
 ```
+
+### RayCast Plugins
+
+- [1Password](https://www.raycast.com/khasbilegt/1password)
+- [iMessage 2FA](https://www.raycast.com/yuercl/imessage-2fa)
+- [Authy](https://www.raycast.com/guga4ka/authy)
 
 ## Homebrew
 
@@ -236,7 +243,7 @@ I use the following extensions to protect my privacy while browsing the web:
 - [kap](https://getkap.co/) - Screen recorder / gif maker
 - [figma](https://www.figma.com/) - Image editor
 - [visual-studio-code](https://code.visualstudio.com/) - Code Editor
-  
+
 You can install them in one go by placing them all into a text file and then running brew install:
 
 ```
@@ -293,7 +300,7 @@ Once installed, launch it and customize the settings / preferences to your likin
       - You can download this font [here](https://www.marksimonson.com/fonts/view/anonymous-pro).
       - I use this font in VS Code as well
     - Text -> Font Size -> 36
-      - I use my Macbook to present / teach, so a big font size is important so everyone can see the commands I'm typing
+      - I use my MacBook to present / teach, so a big font size is important so everyone can see the commands I'm typing
     - Keys -> Key Mappings -> Presets -> Natural Text Editing
       - This allows me to use the [keyboard shortcuts](https://gist.github.com/w3cj/022081eda22081b82c52) I know and love inside of iTerm2
 
