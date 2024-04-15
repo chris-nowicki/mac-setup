@@ -1,5 +1,10 @@
 ffmpeg
 imagemagick
-wget
+mas
+nano
+speedtest-cli
 telnet
 tldr
+vercel-cli
+wget
+zoxide

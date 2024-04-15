@@ -25,14 +25,17 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 - [Web Browser](#web-browser)
   - [Firefox](#firefox)
 - [Other Apps I Use Daily](#other-apps-i-use-daily)
+  - [Setapp](#setapp)
+    - [Apps to install](#apps-to-install)
   - [Docker](#docker)
 - [Terminal](#terminal)
   - [Shell](#shell)
+    - [Github SSH Setup](#github-ssh-setup)
     - [Load dotfiles](#load-dotfiles)
-  - [Github SSH Setup](#github-ssh-setup)
     - [Other command line tools I use](#other-command-line-tools-i-use)
 - [Node.js](#nodejs)
   - [Global Modules](#global-modules)
+- [MAC App Store Apps](#mac-app-store-apps)
 - [VS Code](#vs-code)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -240,28 +243,47 @@ I use the following extensions to protect my privacy while browsing the web:
 - [discord](https://discord.com/) - Messaging / Community
 - [vlc](https://www.videolan.org/) - I use VLC to watch videos instead of the built in QuickTime.
 - [keka](https://www.keka.io/en/) - Can extract 7z / rar and other types of archives
-- [kap](https://getkap.co/) - Screen recorder / gif maker
 - [figma](https://www.figma.com/) - Image editor
 - [visual-studio-code](https://code.visualstudio.com/) - Code Editor
+- [Setapp](https://setapp.com/) - Multiple app subscription service/provider
 
 You can install them in one go by placing them all into a text file and then running brew install:
 
 ```
-keepingyouawake
+1password
+1password-cli
+cleanshot
 discord
-slack
-vlc
-keka
-kap
-time-out
+displaylink
 figma
+keepingyouawake
+keka
+obs
+obsidian
+postman
+screen-studio
+slack
+spotify
 visual-studio-code
-insomnia
+vlc
+zoom
 ```
 
 ```sh
 xargs brew install < apps.txt
 ```
+
+### Setapp
+In a nutshell, beautifully. Setapp membership gives you access to curated apps for Mac, web and iOS for $9.99 / month.  To install setapp:
+
+```sh
+brew install --cask setapp
+```
+
+#### Apps to install
+
+- AirBUddy
+- CleanMyMac X
 
 ### Docker
 
@@ -299,8 +321,7 @@ Once installed, launch it and customize the settings / preferences to your likin
     - Text -> Font -> Anonymous Pro
       - You can download this font [here](https://www.marksimonson.com/fonts/view/anonymous-pro).
       - I use this font in VS Code as well
-    - Text -> Font Size -> 36
-      - I use my MacBook to present / teach, so a big font size is important so everyone can see the commands I'm typing
+    - Text -> Font Size -> 20
     - Keys -> Key Mappings -> Presets -> Natural Text Editing
       - This allows me to use the [keyboard shortcuts](https://gist.github.com/w3cj/022081eda22081b82c52) I know and love inside of iTerm2
 
@@ -308,16 +329,16 @@ Once installed, launch it and customize the settings / preferences to your likin
 
 Mac now comes with `zsh` as the default [shell](https://en.wikipedia.org/wiki/Comparison_of_command_shells). I've switched to using this with [Oh My Zsh](https://ohmyz.sh/).
 
-#### Load dotfiles
-
-All my dotfiles are stored on [github](https://github.com/w3cj/dotfiles).
-
-I clone this repo to my machine and copy the files into my home directory.
-
-### Github SSH Setup
+#### Github SSH Setup
 
 - Follow [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to setup an ssh key for github
 - Follow [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) to add the ssh key to your github account
+
+#### Load dotfiles
+
+All my dotfiles are stored on [github](https://github.com/chris-nowicki/dotfiles).
+
+I clone this repo to my machine and copy the files into my home directory.
 
 #### Other command line tools I use
 
@@ -353,18 +374,28 @@ node --version
 
 There are a few global node modules I use a lot:
 
-- lite-server
-  - Auto refreshing static file server. Great for working on static apps with no build tools.
-- http-server
-  - Simple static file server.
 - license
   - Auto generate open source license files
 - gitignore
   - Auto generate `.gitignore` files base on the current project type
 
 ```
-npm install -g lite-server http-server license gitignore
+npm install -g license gitignore
 ```
+
+## MAC App Store Apps
+
+I use the following programs on daily bases as well installed from the MAC App Store
+
+- 1Password for Safari
+- Final Cut Pro
+- Keynote
+- Numbers
+- Pages
+- Pixelmator Pro
+- Speedtest
+- Things
+- Yubico Authenticator
 
 ## VS Code
 
