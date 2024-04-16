@@ -24,6 +24,7 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 - [Web Browser](#web-browser)
   - [Firefox](#firefox)
 - [Other Apps I Use Daily](#other-apps-i-use-daily)
+- [Other APPS (Not available in homebrew)](#other-apps-not-available-in-homebrew)
   - [Setapp](#setapp)
     - [Apps to install](#apps-to-install)
   - [Docker](#docker)
@@ -34,7 +35,6 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
     - [Other command line tools I use](#other-command-line-tools-i-use)
 - [Node.js](#nodejs)
   - [Global Modules](#global-modules)
-- [MAC App Store Apps](#mac-app-store-apps)
 - [VS Code](#vs-code)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -244,7 +244,6 @@ I use the following extensions to protect my privacy while browsing the web:
 - [keka](https://www.keka.io/en/) - Can extract 7z / rar and other types of archives
 - [figma](https://www.figma.com/) - Image editor
 - [visual-studio-code](https://code.visualstudio.com/) - Code Editor
-- [Setapp](https://setapp.com/) - Multiple app subscription service/provider
 
 You can install them in one go by placing them all into a text file and then running brew install:
 
@@ -272,8 +271,23 @@ zoom
 xargs brew install < apps.txt
 ```
 
+## Other APPS (Not available in homebrew)
+
+You can install the following from the MAC App Store
+
+- 1Password for Safari
+- Final Cut Pro
+- Keynote
+- Numbers
+- Pages
+- Pixelmator Pro
+- Speedtest
+- Things
+- Yubico Authenticator
+
 ### Setapp
-In a nutshell, beautifully. Setapp membership gives you access to curated apps for Mac, web and iOS for $9.99 / month.  To install setapp:
+
+In a nutshell, beautifully. Setapp membership gives you access to curated apps for Mac, web and iOS for $9.99 / month. To install setapp:
 
 ```sh
 brew install --cask setapp
@@ -381,20 +395,6 @@ There are a few global node modules I use a lot:
 ```
 npm install -g license gitignore
 ```
-
-## MAC App Store Apps
-
-I use the following programs on daily bases as well installed from the MAC App Store
-
-- 1Password for Safari
-- Final Cut Pro
-- Keynote
-- Numbers
-- Pages
-- Pixelmator Pro
-- Speedtest
-- Things
-- Yubico Authenticator
 
 ## VS Code
 
