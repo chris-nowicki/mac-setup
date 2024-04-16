@@ -11,11 +11,10 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
   - [Desktop](#desktop)
   - [Finder](#finder)
   - [Dock](#dock)
-- [Quick Launching](#quick-launching)
-  - [RayCast Plugins](#raycast-plugins)
 - [Homebrew](#homebrew)
   - [Homebrew](#homebrew-1)
-  - [RayCast Homebrew Plugin](#raycast-homebrew-plugin)
+- [Quick Launching](#quick-launching)
+  - [RayCast Plugins](#raycast-plugins)
 - [Window Management](#window-management)
 - [App Switching](#app-switching)
 - [Menu Bar Utilities](#menu-bar-utilities)
@@ -99,22 +98,6 @@ I don't use the Dock at all. It takes up screen space, and I can use RayCast to 
     - Animate opening applications -> No
     - Show suggested and recent apps in the Dock -> No
 
-## Quick Launching
-
-The built in spotlight search is a bit slow for me and usually has web search results as the default instead of apps or folders on my machine.
-
-I use [RayCast](https://www.raycast.com/).
-
-```sh
-brew install raycast
-```
-
-### RayCast Plugins
-
-- [1Password](https://www.raycast.com/khasbilegt/1password)
-- [iMessage 2FA](https://www.raycast.com/yuercl/imessage-2fa)
-- [Authy](https://www.raycast.com/guga4ka/authy)
-
 ## Homebrew
 
 ### Homebrew
@@ -131,15 +114,31 @@ This will also install the xcode build tools which is needed by many other devel
 
 After Homebrew is done installing, we will use it (via RayCast) to install everything else we need.
 
-### RayCast Homebrew Plugin
+## Quick Launching
 
-Install the [RayCast Homebrew Plugin](https://www.raycast.com/nhojb/brew) so we can easily install formulae and casks directly from RayCast.
+The built in spotlight search is a bit slow for me and usually has web search results as the default instead of apps or folders on my machine.
+
+I use [RayCast](https://www.raycast.com/).
+
+```sh
+brew install raycast
+```
+
+### RayCast Plugins
+
+- [1Password](https://www.raycast.com/khasbilegt/1password)
+- [iMessage 2FA](https://www.raycast.com/yuercl/imessage-2fa)
+- [Authy](https://www.raycast.com/guga4ka/authy)
+- [RayCast Homebrew Plugin](https://www.raycast.com/nhojb/brew) so we can easily install formulae and casks directly from RayCast.
 
 ## Window Management
 
 I know this feature is built in to a lot of other operating systems, but it is not built in to a Mac, so we need an app for it.
 
 RayCast has this feature built in, but I am still using a separate app for this.
+
+> [!NOTE]
+> Disable Window Management in Raycast Settings
 
 I use [rectangle](https://rectangleapp.com/) to move and resize windows using keyboard shortcuts. I used to use [spectacle](https://www.spectacleapp.com/), but rectangle is more regularly maintained and allows me to use all of the same keyboard shortcuts as spectacle.
 
