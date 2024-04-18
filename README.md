@@ -14,7 +14,6 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 - [Github](#github)
   - [Github SSH Setup](#github-ssh-setup)
 - [Homebrew](#homebrew)
-  - [Homebrew](#homebrew-1)
 - [Quick Launching](#quick-launching)
   - [RayCast Plugins](#raycast-plugins)
 - [Window Management](#window-management)
@@ -108,8 +107,6 @@ I like to setup github at this point so I can clone this repo to access `.txt` f
 - Follow [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) to add the ssh key to your github account
 
 ## Homebrew
-
-### Homebrew
 
 [Homebrew](https://brew.sh/) allows us to install tools and apps from the command line.
 
