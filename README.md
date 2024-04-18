@@ -15,7 +15,8 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
   - [Github SSH Setup](#github-ssh-setup)
 - [Homebrew](#homebrew)
 - [Quick Launching](#quick-launching)
-  - [RayCast Plugins](#raycast-plugins)
+  - [RayCast](#raycast)
+    - [RayCast Plugins](#raycast-plugins)
 - [Window Management](#window-management)
 - [App Switching](#app-switching)
 - [Menu Bar Utilities](#menu-bar-utilities)
@@ -122,6 +123,8 @@ After Homebrew is done installing, we will use it (via RayCast) to install every
 
 ## Quick Launching
 
+### RayCast
+
 The built in spotlight search is a bit slow for me and usually has web search results as the default instead of apps or folders on my machine.
 
 I use [RayCast](https://www.raycast.com/).
@@ -130,7 +133,7 @@ I use [RayCast](https://www.raycast.com/).
 brew install raycast
 ```
 
-### RayCast Plugins
+#### RayCast Plugins
 
 - [1Password](https://www.raycast.com/khasbilegt/1password)
 - [iMessage 2FA](https://www.raycast.com/yuercl/imessage-2fa)
