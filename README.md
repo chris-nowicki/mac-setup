@@ -26,7 +26,7 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 - [Other Apps I Use Daily](#other-apps-i-use-daily)
 - [Other APPS (Not available in homebrew)](#other-apps-not-available-in-homebrew)
   - [Setapp](#setapp)
-    - [Apps to install](#apps-to-install)
+      - [Apps to install](#apps-to-install)
   - [Docker](#docker)
 - [Terminal](#terminal)
   - [Shell](#shell)
@@ -293,10 +293,11 @@ In a nutshell, beautifully. Setapp membership gives you access to curated apps f
 brew install --cask setapp
 ```
 
-#### Apps to install
+##### Apps to install
 
 - AirBUddy
 - CleanMyMac X
+- MindNode
 
 ### Docker
 
@@ -387,13 +388,14 @@ node --version
 
 There are a few global node modules I use a lot:
 
-- license
+- [npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
+- [license](https://www.npmjs.com/package/license)
   - Auto generate open source license files
-- gitignore
+- [gitignore](https://www.npmjs.com/package/gitignore)
   - Auto generate `.gitignore` files base on the current project type
 
 ```
-npm install -g license gitignore
+npm install -g license gitignore npm-check-updates
 ```
 
 ## VS Code
