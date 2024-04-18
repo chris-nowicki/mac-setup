@@ -11,6 +11,8 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
   - [Desktop](#desktop)
   - [Finder](#finder)
   - [Dock](#dock)
+- [Github](#github)
+  - [Github SSH Setup](#github-ssh-setup)
 - [Homebrew](#homebrew)
   - [Homebrew](#homebrew-1)
 - [Quick Launching](#quick-launching)
@@ -30,7 +32,6 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
   - [Docker](#docker)
 - [Terminal](#terminal)
   - [Shell](#shell)
-    - [Github SSH Setup](#github-ssh-setup)
     - [Load dotfiles](#load-dotfiles)
     - [Other command line tools I use](#other-command-line-tools-i-use)
 - [Node.js](#nodejs)
@@ -97,6 +98,14 @@ I don't use the Dock at all. It takes up screen space, and I can use RayCast to 
     - Automatically hide and show the Dock -> Yes
     - Animate opening applications -> No
     - Show suggested and recent apps in the Dock -> No
+
+## Github
+I like to setup github at this point so I can clone this repo to access `.txt` files for easy batch installs later in this guide.
+
+### Github SSH Setup
+
+- Follow [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to setup an ssh key for github
+- Follow [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) to add the ssh key to your github account
 
 ## Homebrew
 
@@ -248,7 +257,6 @@ I use the following extensions to protect my privacy while browsing the web:
 You can install them in one go by placing them all into a text file and then running brew install:
 
 ```
-1password
 1password-cli
 cleanshot
 discord
@@ -342,11 +350,6 @@ Once installed, launch it and customize the settings / preferences to your likin
 ### Shell
 
 Mac now comes with `zsh` as the default [shell](https://en.wikipedia.org/wiki/Comparison_of_command_shells). I've switched to using this with [Oh My Zsh](https://ohmyz.sh/).
-
-#### Github SSH Setup
-
-- Follow [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to setup an ssh key for github
-- Follow [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) to add the ssh key to your github account
 
 #### Load dotfiles
 
