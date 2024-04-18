@@ -33,7 +33,6 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 - [Terminal](#terminal)
   - [Shell](#shell)
     - [Load dotfiles](#load-dotfiles)
-    - [Other command line tools I use](#other-command-line-tools-i-use)
 - [Node.js](#nodejs)
   - [Global Modules](#global-modules)
 - [VS Code](#vs-code)
@@ -149,7 +148,7 @@ RayCast has this feature built in, but I am still using a separate app for this.
 > [!NOTE]
 > Disable Window Management in Raycast Settings
 
-I use [rectangle](https://rectangleapp.com/) to move and resize windows using keyboard shortcuts. I used to use [spectacle](https://www.spectacleapp.com/), but rectangle is more regularly maintained and allows me to use all of the same keyboard shortcuts as spectacle.
+I use [rectangle](https://rectangleapp.com/) to move and resize windows using keyboard shortcuts.
 
 I highly recommend installing this and memorizing the keyboard shortcuts. Fluid and seamless window management is key to being productive while coding.
 
@@ -323,8 +322,6 @@ I prefer [iTerm2](https://iterm2.com/) because:
 - Clickable links
 - Native OS notifications
 
-There are a lot of options for a terminal replacement, but I've been using iTerm2 for years and it works great for my needs.
-
 Checkout their documentation for more info on what iTerm2 can do: [https://iterm2.com/documentation.html](https://iterm2.com/documentation.html)
 
 ```
@@ -356,16 +353,6 @@ Mac now comes with `zsh` as the default [shell](https://en.wikipedia.org/wiki/Co
 All my dotfiles are stored on [github](https://github.com/chris-nowicki/dotfiles).
 
 I clone this repo to my machine and copy the files into my home directory.
-
-#### Other command line tools I use
-
-- [ffmpeg](https://en.wikipedia.org/wiki/FFmpeg) - edit videos from the command line
-- [imagemagick](https://en.wikipedia.org/wiki/ImageMagick) - edit images from the command line
-
-```sh
-brew install ffmpeg
-brew install imagemagick
-```
 
 ## Node.js
 
