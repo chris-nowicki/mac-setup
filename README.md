@@ -288,7 +288,7 @@ You can install the following from the MAC App Store
 - Numbers
 - Pages
 - Pixelmator Pro
-- Speedtest
+- Speedtest-cli
 - Things
 - Yubico Authenticator
 
