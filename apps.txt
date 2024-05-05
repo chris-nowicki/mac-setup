@@ -1,9 +1,7 @@
-1password
 1password-cli
 carbon-copy-cloner
 cleanshot
 discord
-displaylink
 figma
 keepingyouawake
 keka

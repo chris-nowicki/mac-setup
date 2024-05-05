@@ -1,10 +1,4 @@
-ffmpeg
-imagemagick
-mas
-nano
 speedtest-cli
-telnet
 tldr
 vercel-cli
-wget
 zoxide

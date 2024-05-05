@@ -21,17 +21,18 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 - [App Switching](#app-switching)
 - [Menu Bar Utilities](#menu-bar-utilities)
   - [Hidden Bar](#hidden-bar)
-  - [System Stats Widgets](#system-stats-widgets)
-  - [Menu Bar Calendar](#menu-bar-calendar)
 - [Web Browser](#web-browser)
-  - [Firefox](#firefox)
+  - [Arc](#arc)
+- [Fonts I use](#fonts-i-use)
 - [Other Apps I Use Daily](#other-apps-i-use-daily)
+- [Other Command Line Tools I Use Daily](#other-command-line-tools-i-use-daily)
 - [Other APPS (Not available in homebrew)](#other-apps-not-available-in-homebrew)
   - [Setapp](#setapp)
       - [Apps to install](#apps-to-install)
   - [Docker](#docker)
 - [Terminal](#terminal)
   - [Shell](#shell)
+    - [Oh My Zsh](#oh-my-zsh)
     - [Load dotfiles](#load-dotfiles)
 - [Node.js](#nodejs)
   - [Global Modules](#global-modules)
@@ -60,6 +61,9 @@ These are my preferred settings for `Desktop`, `Finder` and the `Dock`.
 I don't like the new Desktop, Stage Manager or Widget features in Sonoma, so I disable them.
 
 - System Preferences
+  - Trackpad
+    - Scroll & Zoom
+      - Natural Scrolling -> uncheck
   - Desktop & Dock
     - Desktop & Stage Manager
       - Show Items
@@ -99,6 +103,7 @@ I don't use the Dock at all. It takes up screen space, and I can use RayCast to 
     - Show suggested and recent apps in the Dock -> No
 
 ## Github
+
 I like to setup github at this point so I can clone this repo to access `.txt` files for easy batch installs later in this guide.
 
 ### Github SSH Setup
@@ -184,65 +189,39 @@ Search for `hiddenbar` in RayCast `brew search` or:
 brew install hiddenbar
 ```
 
-### System Stats Widgets
-
-I use [stats](https://github.com/exelban/stats) to see my network traffic, CPU temp / usage and RAM usage at a glance.
-
-In each widget, a key setting to look for is under "widget settings", choose "merge widgets into one".
-
-Search for `stats` in RayCast `brew search` or:
-
-```sh
-brew install stats
-```
-
-### Menu Bar Calendar
-
-I like to have a calendar in the menu bar that I can quickly look at. stats does not include one, so I found [itsycal](https://www.mowglii.com/itsycal/).
-
-```sh
-brew install itsycal
-```
-
-itsycal shows the date, so I hide the date in the system menu bar widget:
-
-- System Preferences
-  - Dock & Menu Bar
-    - Clock
-      - Show Date -> Never
-      - Show Day of Week -> No
-
 ## Web Browser
 
-### Firefox
+### Arc
 
-I use Firefox because it is open source and comes from the [Mozilla Foundation](https://www.mozilla.org/en-US/about/manifesto/), a non profit company that [respects my privacy](https://www.mozilla.org/en-US/firefox/privacy/).
-
-I use Firefox Developer Edition. To install this with `brew` you will need to tap [a cask](https://github.com/Homebrew/homebrew-cask-versions) first:
-
-```sh
-brew tap homebrew/cask-versions
-```
-
-You can then install Firefox Developer Edition with brew:
-
-```sh
-brew install homebrew/cask-versions/firefox-developer-edition
-```
+I use [Arc](https://arc.net/) as my daily browser
 
 I use the following extensions to stay productive:
 
-- [Tabliss](https://tabliss.io/) - simple new tab page
-- [OneTab](https://www.one-tab.com/) - consolidate a bunch of open tabs into a shareable list of links
+- [1Password](https://chromewebstore.google.com/detail/1password-beta-%E2%80%93-password/khgocmkkpikpnmmkgmdnfckapcdkgfaf) - access 1password login info
 - [Dark Reader](https://darkreader.org/) - turn any site into dark mode
 
-I use the following extensions to protect my privacy while browsing the web:
+## Fonts I use
 
-- Adblocker - [uBlock Origin](https://github.com/gorhill/uBlock)
-- Tracker Blocker - [Privacy Badger](https://privacybadger.org/)
-  - Firefox now includes tracker blocking, but I leave Privacy Badger enabled.
-- [Decentraleyes](https://decentraleyes.org/)
-  - Caches CDN links locally and intercepts requests to serve from the cache. Prevents CDNs from tracking you across websites.
+One thing I love about homebrew is that I can use it to install fonts!
+
+before we can install the font we need to tap the brew cask:
+
+```sh
+brew tap homebrew/cask-fonts
+```
+
+Place following in a .txt file and run brew install:
+
+```
+font-fira-code-nerd-font
+font-fira-mono-nerd-font
+font-hack-nerd-font
+font-anonymous-pro
+```
+
+```sh
+xargs brew install < fonts.txt
+```
 
 ## Other Apps I Use Daily
 
@@ -278,6 +257,21 @@ zoom
 xargs brew install < apps.txt
 ```
 
+## Other Command Line Tools I Use Daily
+
+You can install them in one go by placing them all into a text file and then running brew install:
+
+```
+speedtest-cli
+tldr
+vercel-cli
+zoxide
+```
+
+```sh
+xargs brew install < brew-formulae.txt
+```
+
 ## Other APPS (Not available in homebrew)
 
 You can install the following from the MAC App Store
@@ -286,11 +280,9 @@ You can install the following from the MAC App Store
 - Final Cut Pro
 - Keynote
 - Numbers
-- Pages
 - Pixelmator Pro
-- Speedtest-cli
+- Speedtest
 - Things
-- Yubico Authenticator
 
 ### Setapp
 
@@ -346,7 +338,13 @@ Once installed, launch it and customize the settings / preferences to your likin
 
 ### Shell
 
+#### Oh My Zsh
+
 Mac now comes with `zsh` as the default [shell](https://en.wikipedia.org/wiki/Comparison_of_command_shells). I've switched to using this with [Oh My Zsh](https://ohmyz.sh/).
+
+```sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
 #### Load dotfiles
 
