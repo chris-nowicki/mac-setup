@@ -1,4 +1,5 @@
+font-anonymous-pro
 font-fira-code-nerd-font
 font-fira-mono-nerd-font
 font-hack-nerd-font
-font-anonymous-pro
+font-meslo-for-powerlevel10k
