@@ -310,33 +310,16 @@ brew install --cask docker
 
 ## Terminal
 
-I prefer [iTerm2](https://iterm2.com/) because:
+I prefer [Alacritty](https://alacritty.org/) because:
 
-- Lots of customization options
+- Simple configuration
 - Clickable links
-- Native OS notifications
 
-Checkout their documentation for more info on what iTerm2 can do: [https://iterm2.com/documentation.html](https://iterm2.com/documentation.html)
+Checkout their documentation for more info on what Alacritty can do: [https://alacritty.org/config-alacritty.html](https://alacritty.org/config-alacritty.html)
 
 ```
-brew install iterm2
+brew install alacritty
 ```
-
-Once installed, launch it and customize the settings / preferences to your liking. These are my preferred settings:
-
-- Appearance
-  - Theme
-    - Minimal
-- Profiles
-  - Default
-    - General -> Working Directory -> Reuse previous session's directory
-    - Colors -> Basic Colors -> Foreground -> Lime Green
-    - Text -> Font -> Anonymous Pro
-      - You can download this font [here](https://www.marksimonson.com/fonts/view/anonymous-pro).
-      - I use this font in VS Code as well
-    - Text -> Font Size -> 20
-    - Keys -> Key Mappings -> Presets -> Natural Text Editing
-      - This allows me to use the [keyboard shortcuts](https://gist.github.com/w3cj/022081eda22081b82c52) I know and love inside of iTerm2
 
 ### Shell
 
@@ -348,7 +331,7 @@ I clone this repo to my machine and copy the files into my home directory.
 
 #### Configure PowerLevel 10k
 
-Quit iterm by using `cmd + q` and reopen iterm
+Quit Alacritty by using `cmd + q` and reopen.
 
 if the **Powerlevel10k** configuration wizard does not start, type `p10k configure` at the prompt.
 
