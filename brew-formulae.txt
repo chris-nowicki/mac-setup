@@ -1,5 +1,6 @@
+fzf
 speedtest-cli
+stow
 tldr
 vercel-cli
 zoxide
-stow
