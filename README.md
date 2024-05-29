@@ -267,6 +267,7 @@ speedtest-cli
 tldr
 vercel-cli
 zoxide
+stow
 ```
 
 ```sh
