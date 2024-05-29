@@ -32,11 +32,10 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
   - [Docker](#docker)
 - [Terminal](#terminal)
   - [Shell](#shell)
-    - [Oh My Zsh](#oh-my-zsh)
     - [Load dotfiles](#load-dotfiles)
+    - [Configure PowerLevel 10k](#configure-powerlevel-10k)
 - [Node.js](#nodejs)
   - [Global Modules](#global-modules)
-- [VS Code](#vs-code)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -263,11 +262,12 @@ xargs brew install < apps.txt
 You can install them in one go by placing them all into a text file and then running brew install:
 
 ```
+fzf
 speedtest-cli
+stow
 tldr
 vercel-cli
 zoxide
-stow
 ```
 
 ```sh
@@ -340,19 +340,31 @@ Once installed, launch it and customize the settings / preferences to your likin
 
 ### Shell
 
-#### Oh My Zsh
-
-Mac now comes with `zsh` as the default [shell](https://en.wikipedia.org/wiki/Comparison_of_command_shells). I've switched to using this with [Oh My Zsh](https://ohmyz.sh/).
-
-```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
 #### Load dotfiles
 
 All my dotfiles are stored on [github](https://github.com/chris-nowicki/dotfiles).
 
 I clone this repo to my machine and copy the files into my home directory.
+
+#### Configure PowerLevel 10k
+
+Quit iterm by using `cmd + q` and reopen iterm
+
+if the **Powerlevel10k** configuration wizard does not start, type `p10k configure` at the prompt.
+
+- Configuration
+  - If asked to install _meslo_ font select _yes_
+  - Verify font graphics
+  - Prompt Style
+    - (4) Pure
+    - (1) Original
+    - (2) Right
+    - (n) No
+    - (1) One line
+    - (2) Sparse
+    - (y) Yes for transient prompt
+    - (1) Verbose
+    - (y) Yes to overwrite `~.p10k.zsh`
 
 ## Node.js
 
@@ -370,7 +382,7 @@ Now that nvm is installed, you can install a specific version of node.js and use
 
 ```sh
 nvm install 20
-nvm use 20
+nvm use 20.10.0
 node --version
 ```
 
@@ -379,17 +391,28 @@ node --version
 There are a few global node modules I use a lot:
 
 - [npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
+-
+
+```sh
+npm install -g npm-check-updates
+```
+
 - [license](https://www.npmjs.com/package/license)
   - Auto generate open source license files
+
+```sh
+npm install license
+```
+
 - [gitignore](https://www.npmjs.com/package/gitignore)
   - Auto generate `.gitignore` files base on the current project type
 
 ```
-npm install -g license gitignore npm-check-updates
+npm install -g gitignore
 ```
 
-## VS Code
+<!-- ## VS Code
 
 VS Code is my preferred code editor.
 
-You can view all of my VS Code settings / extensions [here](https://github.com/CodingGarden/vscode-settings).
+You can view all of my VS Code settings / extensions [here](https://github.com/CodingGarden/vscode-settings). -->
