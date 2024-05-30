@@ -273,7 +273,7 @@ zoxide
 ```
 
 ```sh
-xargs brew install < brew-formulae.txt
+xargs brew install < formulae.txt
 ```
 
 ## Other APPS (Not available in homebrew)
