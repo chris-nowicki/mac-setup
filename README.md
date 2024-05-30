@@ -213,10 +213,11 @@ brew tap homebrew/cask-fonts
 Place following in a .txt file and run brew install:
 
 ```
+font-anonymous-pro
 font-fira-code-nerd-font
 font-fira-mono-nerd-font
 font-hack-nerd-font
-font-anonymous-pro
+font-meslo-lg-nerd-font
 ```
 
 ```sh
@@ -236,12 +237,13 @@ You can install them in one go by placing them all into a text file and then run
 
 ```
 1password-cli
+carbon-copy-cloner
 cleanshot
 discord
-displaylink
 figma
 keepingyouawake
 keka
+monitorcontrol
 obs
 obsidian
 postman
