@@ -33,7 +33,6 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 - [Terminal](#terminal)
   - [Shell](#shell)
     - [Load dotfiles](#load-dotfiles)
-    - [Configure PowerLevel 10k](#configure-powerlevel-10k)
 - [Node.js](#nodejs)
   - [Global Modules](#global-modules)
 
@@ -265,6 +264,7 @@ You can install them in one go by placing them all into a text file and then run
 
 ```
 fzf
+oh-my-posh
 speedtest-cli
 stow
 tldr
@@ -330,26 +330,6 @@ brew install alacritty
 All my dotfiles are stored on [github](https://github.com/chris-nowicki/dotfiles).
 
 I clone this repo to my machine and copy the files into my home directory.
-
-#### Configure PowerLevel 10k
-
-Quit Alacritty by using `cmd + q` and reopen.
-
-if the **Powerlevel10k** configuration wizard does not start, type `p10k configure` at the prompt.
-
-- Configuration
-  - If asked to install _meslo_ font select _yes_
-  - Verify font graphics
-  - Prompt Style
-    - (4) Pure
-    - (1) Original
-    - (2) Right
-    - (n) No
-    - (1) One line
-    - (2) Sparse
-    - (y) Yes for transient prompt
-    - (1) Verbose
-    - (y) Yes to overwrite `~.p10k.zsh`
 
 ## Node.js
 

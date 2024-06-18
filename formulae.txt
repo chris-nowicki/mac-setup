@@ -1,4 +1,5 @@
 fzf
+oh-my-posh
 speedtest-cli
 stow
 tldr
