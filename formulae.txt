@@ -1,4 +1,5 @@
 fzf
+neofetch
 oh-my-posh
 speedtest-cli
 stow

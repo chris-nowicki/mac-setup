@@ -264,6 +264,7 @@ You can install them in one go by placing them all into a text file and then run
 
 ```
 fzf
+neofetch
 oh-my-posh
 speedtest-cli
 stow
