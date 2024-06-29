@@ -203,12 +203,6 @@ I use the following extensions to stay productive:
 
 One thing I love about homebrew is that I can use it to install fonts!
 
-before we can install the font we need to tap the brew cask:
-
-```sh
-brew tap homebrew/cask-fonts
-```
-
 Place following in a .txt file and run brew install:
 
 ```
@@ -236,7 +230,6 @@ You can install them in one go by placing them all into a text file and then run
 
 ```
 1password-cli
-carbon-copy-cloner
 cleanshot
 discord
 figma
@@ -357,24 +350,9 @@ node --version
 There are a few global node modules I use a lot:
 
 - [npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
--
 
 ```sh
 npm install -g npm-check-updates
-```
-
-- [license](https://www.npmjs.com/package/license)
-  - Auto generate open source license files
-
-```sh
-npm install license
-```
-
-- [gitignore](https://www.npmjs.com/package/gitignore)
-  - Auto generate `.gitignore` files base on the current project type
-
-```
-npm install -g gitignore
 ```
 
 <!-- ## VS Code

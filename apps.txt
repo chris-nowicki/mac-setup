@@ -1,5 +1,4 @@
 1password-cli
-carbon-copy-cloner
 cleanshot
 discord
 figma
