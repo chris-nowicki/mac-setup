@@ -230,6 +230,7 @@ You can install them in one go by placing them all into a text file and then run
 
 ```
 1password-cli
+canva
 cleanshot
 discord
 figma
