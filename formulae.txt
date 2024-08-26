@@ -1,8 +1,7 @@
 fzf
 neofetch
-oh-my-posh
+powerlevel10k
 speedtest-cli
 stow
-tldr
-vercel-cli
+thefuck
 zoxide

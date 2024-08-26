@@ -259,11 +259,10 @@ You can install them in one go by placing them all into a text file and then run
 ```
 fzf
 neofetch
-oh-my-posh
+powerlevel10k
 speedtest-cli
 stow
-tldr
-vercel-cli
+thefuck
 zoxide
 ```
 
