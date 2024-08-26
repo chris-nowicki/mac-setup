@@ -257,6 +257,7 @@ xargs brew install < apps.txt
 You can install them in one go by placing them all into a text file and then running brew install:
 
 ```
+eza
 fzf
 neofetch
 powerlevel10k
