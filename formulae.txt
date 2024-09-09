@@ -4,5 +4,4 @@ neofetch
 powerlevel10k
 speedtest-cli
 stow
-thefuck
 zoxide

@@ -140,7 +140,6 @@ brew install raycast
 
 - [1Password](https://www.raycast.com/khasbilegt/1password)
 - [iMessage 2FA](https://www.raycast.com/yuercl/imessage-2fa)
-- [Authy](https://www.raycast.com/guga4ka/authy)
 - [RayCast Homebrew Plugin](https://www.raycast.com/nhojb/brew) so we can easily install formulae and casks directly from RayCast.
 
 ## Window Management
@@ -263,7 +262,6 @@ neofetch
 powerlevel10k
 speedtest-cli
 stow
-thefuck
 zoxide
 ```
 
@@ -307,15 +305,14 @@ brew install --cask docker
 
 ## Terminal
 
-I prefer [Alacritty](https://alacritty.org/) because:
+I prefer [Wezterm](https://wezfurlong.org/wezterm/index.html) because:
 
-- Simple configuration
-- Clickable links
+- Simple lua configuration
 
-Checkout their documentation for more info on what Alacritty can do: [https://alacritty.org/config-alacritty.html](https://alacritty.org/config-alacritty.html)
+Checkout their documentation for more info on what wezterm can do: [https://wezfurlong.org/wezterm/config/files.html](https://wezfurlong.org/wezterm/config/files.html)
 
 ```
-brew install alacritty
+brew install wezterm
 ```
 
 ### Shell
