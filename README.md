@@ -23,6 +23,7 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
   - [Hidden Bar](#hidden-bar)
 - [Web Browser](#web-browser)
   - [Arc](#arc)
+  - [Firefox](#firefox)
 - [Fonts I use](#fonts-i-use)
 - [Other Apps I Use Daily](#other-apps-i-use-daily)
 - [Other Command Line Tools I Use Daily](#other-command-line-tools-i-use-daily)
@@ -197,6 +198,35 @@ I use the following extensions to stay productive:
 
 - [1Password](https://chromewebstore.google.com/detail/1password-beta-%E2%80%93-password/khgocmkkpikpnmmkgmdnfckapcdkgfaf) - access 1password login info
 - [Dark Reader](https://darkreader.org/) - turn any site into dark mode
+
+### Firefox
+
+I use Firefox because it is open source and comes from the [Mozilla Foundation](https://www.mozilla.org/en-US/about/manifesto/), a non profit company that [respects my privacy](https://www.mozilla.org/en-US/firefox/privacy/).
+
+I use Firefox Developer Edition. To install this with `brew` you will need to tap [a cask](https://github.com/Homebrew/homebrew-cask-versions) first:
+
+```sh
+brew tap homebrew/cask-versions
+```
+
+You can then install Firefox Developer Edition with brew:
+
+```sh
+brew install homebrew/cask-versions/firefox-developer-edition
+```
+
+I use the following extensions to stay productive:
+
+* [Tabliss](https://tabliss.io/) - simple new tab page
+* [Dark Reader](https://darkreader.org/) - turn any site into dark mode
+
+I use the following extensions to protect my privacy while browsing the web:
+
+* Adblocker - [uBlock Origin](https://github.com/gorhill/uBlock)
+* Tracker Blocker - [Privacy Badger](https://privacybadger.org/)
+  * Firefox now includes tracker blocking, but I leave Privacy Badger enabled.
+* [Decentraleyes](https://decentraleyes.org/)
+  * Caches CDN links locally and intercepts requests to serve from the cache. Prevents CDNs from tracking you across websites.
 
 ## Fonts I use
 
