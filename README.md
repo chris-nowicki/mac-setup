@@ -203,16 +203,10 @@ I use the following extensions to stay productive:
 
 I use Firefox because it is open source and comes from the [Mozilla Foundation](https://www.mozilla.org/en-US/about/manifesto/), a non profit company that [respects my privacy](https://www.mozilla.org/en-US/firefox/privacy/).
 
-I use Firefox Developer Edition. To install this with `brew` you will need to tap [a cask](https://github.com/Homebrew/homebrew-cask-versions) first:
+I use Firefox Developer Edition. To install this with `brew` you will need to install Firefox Developer Edition with brew:
 
 ```sh
-brew tap homebrew/cask-versions
-```
-
-You can then install Firefox Developer Edition with brew:
-
-```sh
-brew install homebrew/cask-versions/firefox-developer-edition
+brew install firefox@developer-edition
 ```
 
 I use the following extensions to stay productive:
