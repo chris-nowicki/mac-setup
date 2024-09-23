@@ -260,6 +260,7 @@ figma
 keepingyouawake
 keka
 monitorcontrol
+notion
 obs
 obsidian
 postman
