@@ -1,5 +1,2 @@
 font-anonymous-pro
-font-fira-code-nerd-font
-font-fira-mono-nerd-font
-font-hack-nerd-font
 font-meslo-lg-nerd-font

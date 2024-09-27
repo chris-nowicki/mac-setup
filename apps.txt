@@ -1,10 +1,11 @@
-1password-cli
-canva
 cleanshot
 discord
+espanso
 figma
+gitkraken
 keepingyouawake
 keka
+marta
 monitorcontrol
 notion
 obs
@@ -12,7 +13,5 @@ obsidian
 postman
 screen-studio
 slack
-spotify
 visual-studio-code
-vlc
 zoom

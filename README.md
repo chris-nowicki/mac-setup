@@ -21,6 +21,13 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 - [App Switching](#app-switching)
 - [Menu Bar Utilities](#menu-bar-utilities)
   - [Hidden Bar](#hidden-bar)
+  - [itsycal](#itsycal)
+  - [stats](#stats)
+    - [Settings to turn off:](#settings-to-turn-off)
+    - [RAM settings](#ram-settings)
+    - [Battery percentage settings](#battery-percentage-settings)
+    - [Clock settings](#clock-settings)
+  - [Re-arrange menu bar to look like this](#re-arrange-menu-bar-to-look-like-this)
 - [Web Browser](#web-browser)
   - [Arc](#arc)
   - [Firefox](#firefox)
@@ -57,7 +64,7 @@ These are my preferred settings for `Desktop`, `Finder` and the `Dock`.
 
 ### Desktop
 
-I don't like the new Desktop, Stage Manager or Widget features in Sonoma, so I disable them.
+I don't like the new Desktop, Stage Manager or Widget features in Sequoia, so I disable them.
 
 - System Preferences
   - Trackpad
@@ -73,6 +80,26 @@ I don't like the new Desktop, Stage Manager or Widget features in Sonoma, so I d
       - Widgets
         - On Desktop -> uncheck
         - In Stage Manager -> uncheck
+  - Control Center
+    - Other Modules
+      - Battery
+        - Show in menu bar -> uncheck
+        - Show in control center -> uncheck
+        - Show percentage -> uncheck
+    - Menu Bar Only
+      - Clock
+        - Clock Options...
+          - Date
+            - Show date -> Never
+            - Show day of the week -> uncheck
+          - Time
+            - Style -> Analog
+            - Show AM/PM -> uncheck
+            - Flash the time separators -> uncheck
+            - Display the time with seconds -> uncheck
+      - Spotlight -> Don't show in Menu Bar
+      - Siri -> Don't show in Menu Bar
+      - TIme Machine -> Don't show in Menu Bar
 
 ### Finder
 
@@ -188,6 +215,50 @@ Search for `hiddenbar` in RayCast `brew search` or:
 brew install hiddenbar
 ```
 
+### itsycal
+
+Simple calendar app that show date and a dropdown with events
+
+```sh
+brew install itsycal
+```
+
+![itsycal appearance settings](images/itsycal.png)
+
+### stats
+
+Simple stats app that I use to show memory usage, and customize the time and battery percentage displayed.
+
+```sh
+brew install stats
+```
+
+#### Settings to turn off:
+
+- CPU
+- GPU
+- Disk
+- Sensors
+- Network
+- Bluetooth
+
+#### RAM settings
+
+![stats ram settings](images/stats-ram.png)
+
+#### Battery percentage settings
+
+![stats battery percentage settings](images/stats-battery.png)
+
+#### Clock settings
+
+![stats clock module settings](images/stats-clock-1.png)
+![stats clock widget settings](images/stats-clock-2.png)
+
+### Re-arrange menu bar to look like this
+
+![menu bar](images/menu-bar.png)
+
 ## Web Browser
 
 ### Arc
@@ -230,9 +301,6 @@ Place following in a .txt file and run brew install:
 
 ```
 font-anonymous-pro
-font-fira-code-nerd-font
-font-fira-mono-nerd-font
-font-hack-nerd-font
 font-meslo-lg-nerd-font
 ```
 
@@ -242,23 +310,24 @@ xargs brew install < fonts.txt
 
 ## Other Apps I Use Daily
 
-- [keepingyouawake](https://keepingyouawake.app/) - Prevents my Mac from going to sleep when I'm presenting / live streaming
 - [discord](https://discord.com/) - Messaging / Community
-- [vlc](https://www.videolan.org/) - I use VLC to watch videos instead of the built in QuickTime.
-- [keka](https://www.keka.io/en/) - Can extract 7z / rar and other types of archives
+- [Espanso](https://espanso.org/) - Text expander
 - [figma](https://www.figma.com/) - Image editor
+- [keepingyouawake](https://keepingyouawake.app/) - Prevents my Mac from going to sleep when I'm presenting / live streaming
+- [keka](https://www.keka.io/en/) - Can extract 7z / rar and other types of archives
+- [Marta](https://marta.sh/) - File Manager for macOS.  Great customizable finder replacement
 - [visual-studio-code](https://code.visualstudio.com/) - Code Editor
 
 You can install them in one go by placing them all into a text file and then running brew install:
 
 ```
-1password-cli
-canva
 cleanshot
 discord
+espanso
 figma
 keepingyouawake
 keka
+marta
 monitorcontrol
 notion
 obs
@@ -266,9 +335,7 @@ obsidian
 postman
 screen-studio
 slack
-spotify
 visual-studio-code
-vlc
 zoom
 ```
 
@@ -283,10 +350,10 @@ You can install them in one go by placing them all into a text file and then run
 ```
 eza
 fzf
-neofetch
 powerlevel10k
 speedtest-cli
 stow
+tldr
 zoxide
 ```
 
@@ -318,7 +385,9 @@ brew install --cask setapp
 
 - AirBUddy
 - CleanMyMac X
+- Downie
 - MindNode
+- NotchNook
 
 ### Docker
 

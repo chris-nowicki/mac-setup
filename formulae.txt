@@ -1,7 +1,7 @@
 eza
 fzf
-neofetch
 powerlevel10k
 speedtest-cli
 stow
+tldr
 zoxide
