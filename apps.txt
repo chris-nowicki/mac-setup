@@ -1,8 +1,10 @@
 cleanshot
+dbngin
 discord
 espanso
 figma
 gitkraken
+iina
 keepingyouawake
 keka
 marta
@@ -10,8 +12,11 @@ monitorcontrol
 notion
 obs
 obsidian
+pearcleaner
+pika
 postman
 screen-studio
 slack
+tableplus
 visual-studio-code
 zoom

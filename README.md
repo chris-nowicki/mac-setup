@@ -67,9 +67,12 @@ These are my preferred settings for `Desktop`, `Finder` and the `Dock`.
 I don't like the new Desktop, Stage Manager or Widget features in Sequoia, so I disable them.
 
 - System Preferences
-  - Trackpad
-    - Scroll & Zoom
-      - Natural Scrolling -> uncheck
+  - Control Center
+    - Other Modules
+      - Battery
+        - Show in menu bar -> uncheck
+        - Show in control center -> uncheck
+        - Show percentage -> uncheck
   - Desktop & Dock
     - Desktop & Stage Manager
       - Show Items
@@ -80,12 +83,18 @@ I don't like the new Desktop, Stage Manager or Widget features in Sequoia, so I 
       - Widgets
         - On Desktop -> uncheck
         - In Stage Manager -> uncheck
-  - Control Center
-    - Other Modules
-      - Battery
-        - Show in menu bar -> uncheck
-        - Show in control center -> uncheck
-        - Show percentage -> uncheck
+      - Windows
+        - Prefer tabs when opening document -> In Full Screen
+        - Ask to keep changes when closing documents -> uncheck
+        - Tile by dragging window to screen edges -> uncheck
+        - hold option key while dragging windows to tile -> uncheck
+        - tiled windows have margins -> uncheck
+  - General
+    - AutoFill & Passwords
+      - AutoFill Passwords and Passkeys -> uncheck
+  - Trackpad
+    - Scroll & Zoom
+      - Natural Scrolling -> uncheck
     - Menu Bar Only
       - Clock
         - Clock Options...
@@ -322,9 +331,12 @@ You can install them in one go by placing them all into a text file and then run
 
 ```
 cleanshot
+dbngin
 discord
 espanso
 figma
+gitkraken
+iina
 keepingyouawake
 keka
 marta
@@ -332,9 +344,12 @@ monitorcontrol
 notion
 obs
 obsidian
+pearcleaner
+pika
 postman
 screen-studio
 slack
+tableplus
 visual-studio-code
 zoom
 ```
@@ -350,6 +365,7 @@ You can install them in one go by placing them all into a text file and then run
 ```
 eza
 fzf
+pnpm
 powerlevel10k
 speedtest-cli
 stow
