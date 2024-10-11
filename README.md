@@ -6,6 +6,7 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
+- [My Mac Setup](#my-mac-setup)
 - [What MacBook do I have?](#what-macbook-do-i-have)
 - [OS Settings](#os-settings)
   - [Desktop](#desktop)
@@ -331,7 +332,6 @@ You can install them in one go by placing them all into a text file and then run
 
 ```
 cleanshot
-dbngin
 discord
 espanso
 figma
@@ -344,12 +344,10 @@ monitorcontrol
 notion
 obs
 obsidian
-pearcleaner
 pika
 postman
 screen-studio
 slack
-tableplus
 visual-studio-code
 zoom
 ```
