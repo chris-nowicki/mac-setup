@@ -1,5 +1,4 @@
 cleanshot
-dbngin
 discord
 espanso
 figma
@@ -12,11 +11,9 @@ monitorcontrol
 notion
 obs
 obsidian
-pearcleaner
 pika
 postman
 screen-studio
 slack
-tableplus
 visual-studio-code
 zoom
