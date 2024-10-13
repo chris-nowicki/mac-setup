@@ -10,8 +10,8 @@
 	"author": "Chris Wix <chris@chrisnowicki.io> (https://chrisnowicki.io)",
 	"license": "MIT",
 	"dependencies": {
-		"doctoc": "^1.4.0",
-		"husky": "^4.2.5"
+		"doctoc": "^2.2.1",
+		"husky": "^9.1.6"
 	},
 	"husky": {
 		"hooks": {
