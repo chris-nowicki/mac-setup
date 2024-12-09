@@ -1,13 +1,10 @@
 cleanshot
 discord
-espanso
 figma
 gitkraken
 iina
 keepingyouawake
 keka
-marta
-monitorcontrol
 notion
 obs
 obsidian

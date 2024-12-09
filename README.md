@@ -182,22 +182,9 @@ brew install raycast
 
 ## Window Management
 
-I know this feature is built in to a lot of other operating systems, but it is not built in to a Mac, so we need an app for it.
+RayCast has this feature built in, So here are the settings to make it work:
 
-RayCast has this feature built in, but I am still using a separate app for this.
-
-> [!NOTE]
-> Disable Window Management in Raycast Settings
-
-I use [rectangle](https://rectangleapp.com/) to move and resize windows using keyboard shortcuts.
-
-I highly recommend installing this and memorizing the keyboard shortcuts. Fluid and seamless window management is key to being productive while coding.
-
-Search for `rectangle` in RayCast `brew search` or:
-
-```
-brew install rectangle
-```
+![Raycast Window Management Settings](images/raycast-window-management.png)
 
 ## App Switching
 
@@ -321,11 +308,9 @@ xargs brew install < fonts.txt
 ## Other Apps I Use Daily
 
 - [discord](https://discord.com/) - Messaging / Community
-- [Espanso](https://espanso.org/) - Text expander
 - [figma](https://www.figma.com/) - Image editor
 - [keepingyouawake](https://keepingyouawake.app/) - Prevents my Mac from going to sleep when I'm presenting / live streaming
 - [keka](https://www.keka.io/en/) - Can extract 7z / rar and other types of archives
-- [Marta](https://marta.sh/) - File Manager for macOS.  Great customizable finder replacement
 - [visual-studio-code](https://code.visualstudio.com/) - Code Editor
 
 You can install them in one go by placing them all into a text file and then running brew install:
@@ -333,14 +318,11 @@ You can install them in one go by placing them all into a text file and then run
 ```
 cleanshot
 discord
-espanso
 figma
 gitkraken
 iina
 keepingyouawake
 keka
-marta
-monitorcontrol
 notion
 obs
 obsidian
@@ -401,7 +383,6 @@ brew install --cask setapp
 - CleanMyMac X
 - Downie
 - MindNode
-- NotchNook
 
 ### Docker
 
