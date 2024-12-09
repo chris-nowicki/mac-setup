@@ -184,7 +184,7 @@ brew install raycast
 
 RayCast has this feature built in, So here are the settings to make it work:
 
-![Raycast Window Management Settings](images/raycast-window-management.png)
+![Raycast Window Management Settings](images/window-management-settings.png)
 
 ## App Switching
 
