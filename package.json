@@ -7,7 +7,7 @@
 		"toc": "doctoc README.md --github"
 	},
 	"keywords": [],
-	"author": "Chris Wix <chris@chrisnowicki.io> (https://chrisnowicki.io)",
+	"author": "Chris Wix <chris@chrisnowicki.dev> (https://chrisnowicki.dev)",
 	"license": "MIT",
 	"dependencies": {
 		"doctoc": "^2.2.1",
