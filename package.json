@@ -4,14 +4,15 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"toc": "doctoc README.md --github"
+		"toc": "doctoc README.md --github",
+		"prepare": "husky"
 	},
 	"keywords": [],
 	"author": "Chris Wix <chris@chrisnowicki.dev> (https://chrisnowicki.dev)",
 	"license": "MIT",
 	"dependencies": {
 		"doctoc": "^2.2.1",
-		"husky": "^9.1.6"
+		"husky": "^9.1.7"
 	},
 	"husky": {
 		"hooks": {
