@@ -1,8 +1,5 @@
 eza
-fzf
+lazygit
 pnpm
-powerlevel10k
-speedtest-cli
 stow
-tldr
 zoxide

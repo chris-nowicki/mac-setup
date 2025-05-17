@@ -1,12 +1,14 @@
+1password-cli
+capcut
 cleanshot
 discord
 figma
-gitkraken
-iina
 keepingyouawake
 keka
 obs
 obsidian
+onyx
+pearcleaner
 pika
 postman
 screen-studio

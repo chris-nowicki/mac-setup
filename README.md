@@ -5,6 +5,7 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [My Mac Setup](#my-mac-setup)
 - [What MacBook do I have?](#what-macbook-do-i-have)
 - [OS Settings](#os-settings)
   - [Desktop](#desktop)
@@ -33,8 +34,6 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 - [Other Apps I Use Daily](#other-apps-i-use-daily)
 - [Other Command Line Tools I Use Daily](#other-command-line-tools-i-use-daily)
 - [Other APPS (Not available in homebrew)](#other-apps-not-available-in-homebrew)
-  - [Setapp](#setapp)
-      - [Apps to install](#apps-to-install)
   - [Docker](#docker)
 - [Terminal](#terminal)
   - [Shell](#shell)
@@ -307,13 +306,13 @@ capcut
 cleanshot
 discord
 figma
-iina
 keepingyouawake
 keka
-marta
 monitorcontrol
 obs
 obsidian
+onyx
+pearcleaner
 pika
 postman
 screen-studio
@@ -332,12 +331,9 @@ You can install them in one go by placing them all into a text file and then run
 
 ```
 eza
-fzf
+lazygit
 pnpm
-powerlevel10k
-speedtest-cli
 stow
-tldr
 zoxide
 ```
 
@@ -355,23 +351,6 @@ You can install the following from the MAC App Store
 - Numbers
 - Pixelmator Pro
 - Speedtest
-- Things
-
-### Setapp
-
-In a nutshell, beautifully. Setapp membership gives you access to curated apps for Mac, web and iOS for $9.99 / month. To install setapp:
-
-```sh
-brew install --cask setapp
-```
-
-##### Apps to install
-
-- AirBUddy
-- CleanMyMac X
-- Downie
-- MindNode
-- Bartender
 
 ### Docker
 
@@ -383,15 +362,7 @@ brew install --cask docker
 
 ## Terminal
 
-I prefer [Wezterm](https://wezfurlong.org/wezterm/index.html) because:
-
-- Simple lua configuration
-
-Checkout their documentation for more info on what wezterm can do: [https://wezfurlong.org/wezterm/config/files.html](https://wezfurlong.org/wezterm/config/files.html)
-
-```
-brew install wezterm
-```
+I prefer [Warp](https://www.warp.dev)
 
 ### Shell
 
