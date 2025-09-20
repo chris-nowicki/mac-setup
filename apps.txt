@@ -1,13 +1,13 @@
 1password-cli
-capcut
 cleanshot
 discord
 figma
+karabiner-elements
 keepingyouawake
-keka
+loopback
+notion
 obs
 obsidian
-onyx
 pearcleaner
 pika
 postman

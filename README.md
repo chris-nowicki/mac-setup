@@ -5,11 +5,11 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [My Mac Setup](#my-mac-setup)
 - [What MacBook do I have?](#what-macbook-do-i-have)
 - [OS Settings](#os-settings)
-  - [Desktop](#desktop)
+  - [Desktop \& Dock](#desktop--dock)
   - [Finder](#finder)
-  - [Dock](#dock)
 - [Github](#github)
   - [Github SSH Setup](#github-ssh-setup)
 - [Homebrew](#homebrew)
@@ -18,17 +18,10 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
     - [RayCast Plugins](#raycast-plugins)
 - [App Switching](#app-switching)
 - [Menu Bar Utilities](#menu-bar-utilities)
-  - [Hidden Bar](#hidden-bar)
-  - [itsycal](#itsycal)
-  - [stats](#stats)
-    - [Settings to turn off:](#settings-to-turn-off)
-    - [RAM settings](#ram-settings)
-    - [Battery percentage settings](#battery-percentage-settings)
-    - [Clock settings](#clock-settings)
-  - [Re-arrange menu bar to look like this](#re-arrange-menu-bar-to-look-like-this)
-- [Web Browser](#web-browser)
+  - [Bartender](#bartender)
+- [Web Browsers](#web-browsers)
   - [Safari](#safari)
-  - [Firefox](#firefox)
+  - [Google Chrome](#google-chrome)
 - [Fonts I use](#fonts-i-use)
 - [Other Apps I Use Daily](#other-apps-i-use-daily)
 - [Other Command Line Tools I Use Daily](#other-command-line-tools-i-use-daily)
@@ -56,35 +49,22 @@ Read more about my MacBook [here](https://everymac.com/systems/apple/macbook_pro
 
 ## OS Settings
 
-These are my preferred settings for `Desktop`, `Finder` and the `Dock`.
+These are my preferred settings for `Desktop`, the `Dock` and `Finder`.
 
-### Desktop
+### Desktop & Dock
 
-I don't like the new Desktop, Stage Manager or Widget features in Sequoia, so I disable them.
+I don't like the new Desktop, Stage Manager or Widget features in Tahoe, so I disable them.
+
+I don't use the Dock at all. It takes up screen space, and I can use RayCast to launch apps and AltTab to switch between apps. I make the dock as small as possible and auto hide it.
 
 - System Preferences
-  - Control Center
-    - Other Modules
-      - Battery
-        - Show in menu bar -> uncheck
-        - Show in control center -> uncheck
-        - Show percentage -> uncheck
   - Desktop & Dock
+    - Dock
+      ![](./images/dock.png)
     - Desktop & Stage Manager
-      - Show Items
-        - On Desktop -> uncheck
-        - In Stage Manager -> uncheck
-      - Click wallpaper to reveal desktop -> Only in Stage Manager
-      - Stage Manager -> uncheck
-      - Widgets
-        - On Desktop -> uncheck
-        - In Stage Manager -> uncheck
-      - Windows
-        - Prefer tabs when opening document -> In Full Screen
-        - Ask to keep changes when closing documents -> uncheck
-        - Tile by dragging window to screen edges -> uncheck
-        - hold option key while dragging windows to tile -> uncheck
-        - tiled windows have margins -> uncheck
+      ![](./images/desktop-stage-manager.png)
+    - Widgets & Windows
+      ![](./images/widgets-windows.png)
   - General
     - AutoFill & Passwords
       - AutoFill Passwords and Passkeys -> uncheck
@@ -95,16 +75,14 @@ I don't like the new Desktop, Stage Manager or Widget features in Sequoia, so I 
       - Clock
         - Clock Options...
           - Date
-            - Show date -> Never
-            - Show day of the week -> uncheck
+            - Show date -> Always
+            - Show day of the week -> toggle off
           - Time
-            - Style -> Analog
-            - Show AM/PM -> uncheck
-            - Flash the time separators -> uncheck
-            - Display the time with seconds -> uncheck
+            - Style -> Digital
+            - Flash the time separators -> toggle off
+            - Display the time with seconds -> toggle on
       - Spotlight -> Don't show in Menu Bar
       - Siri -> Don't show in Menu Bar
-      - TIme Machine -> Don't show in Menu Bar
 
 ### Finder
 
@@ -120,18 +98,6 @@ I don't like the new Desktop, Stage Manager or Widget features in Sequoia, so I 
   - Show Status Bar
   - Show Path Bar
   - Show Tab Bar
-
-### Dock
-
-I don't use the Dock at all. It takes up screen space, and I can use RayCast to launch apps and AltTab to switch between apps. I make the dock as small as possible and auto hide it.
-
-- System Preferences
-  - Desktop & Dock
-    - Size -> Small as possible
-    - Position on screen -> Bottom
-    - Automatically hide and show the Dock -> Yes
-    - Animate opening applications -> No
-    - Show suggested and recent apps in the Dock -> No
 
 ## Github
 
@@ -191,88 +157,25 @@ brew install alt-tab
 
 ## Menu Bar Utilities
 
-### Hidden Bar
+### Bartender
 
-If you have several apps running that have menu bar icons, [Hidden Bar](https://github.com/dwarvesf/hidden) will let you choose which ones should be hidden after a timeout. This cleans things up if you have a ton of background apps running.
+If you have several apps running that have menu bar icons, [Bartender](https://www.macbartender.com/) will let you choose which ones should be hidden after a timeout. This cleans things up if you have a ton of background apps running.
 
-Search for `hiddenbar` in RayCast `brew search` or:
-
-```sh
-brew install hiddenbar
-```
-
-### itsycal
-
-Simple calendar app that show date and a dropdown with events
+Search for `bartender` in RayCast `brew search` or:
 
 ```sh
-brew install itsycal
+brew install bartender
 ```
 
-![itsycal appearance settings](images/itsycal.png)
-
-### stats
-
-Simple stats app that I use to show memory usage, and customize the time and battery percentage displayed.
-
-```sh
-brew install stats
-```
-
-#### Settings to turn off:
-
-- CPU
-- GPU
-- Disk
-- Sensors
-- Network
-- Bluetooth
-
-#### RAM settings
-
-![stats ram settings](images/stats-ram.png)
-
-#### Battery percentage settings
-
-![stats battery percentage settings](images/stats-battery.png)
-
-#### Clock settings
-
-![stats clock module settings](images/stats-clock-1.png)
-![stats clock widget settings](images/stats-clock-2.png)
-
-### Re-arrange menu bar to look like this
-
-![menu bar](images/menu-bar.png)
-
-## Web Browser
+## Web Browsers
 
 ### Safari
 
 I use safari for my everyday browsing life.
 
-### Firefox
+### Google Chrome
 
-I use Firefox for web development.
-
-I use Firefox Developer Edition. To install this with `brew` you will need to install Firefox Developer Edition with brew:
-
-```sh
-brew install firefox@developer-edition
-```
-
-I use the following extensions to stay productive:
-
-- [Tabliss](https://tabliss.io/) - simple new tab page
-- [Dark Reader](https://darkreader.org/) - turn any site into dark mode
-
-I use the following extensions to protect my privacy while browsing the web:
-
-- Adblocker - [uBlock Origin](https://github.com/gorhill/uBlock)
-- Tracker Blocker - [Privacy Badger](https://privacybadger.org/)
-  - Firefox now includes tracker blocking, but I leave Privacy Badger enabled.
-- [Decentraleyes](https://decentraleyes.org/)
-  - Caches CDN links locally and intercepts requests to serve from the cache. Prevents CDNs from tracking you across websites.
+I use Google Chrome for my work and local development previews.
 
 ## Fonts I use
 
@@ -294,23 +197,17 @@ xargs brew install < fonts.txt
 - [discord](https://discord.com/) - Messaging / Community
 - [figma](https://www.figma.com/) - Image editor
 - [keepingyouawake](https://keepingyouawake.app/) - Prevents my Mac from going to sleep when I'm presenting / live streaming
-- [keka](https://www.keka.io/en/) - Can extract 7z / rar and other types of archives
 - [visual-studio-code](https://code.visualstudio.com/) - Code Editor
 
 You can install them in one go by placing them all into a text file and then running brew install:
 
 ```
-1password-cli
-capcut
 cleanshot
 discord
 figma
 keepingyouawake
-keka
-monitorcontrol
 obs
 obsidian
-onyx
 pearcleaner
 pika
 postman
@@ -332,8 +229,14 @@ You can install them in one go by placing them all into a text file and then run
 eza
 lazygit
 pnpm
+powerlevel10k
 stow
+thefuck
+tldr
+wezterm
 zoxide
+zsh-autosuggestions
+zsh-syntax-highlighting
 ```
 
 ```sh
@@ -361,7 +264,11 @@ brew install --cask docker
 
 ## Terminal
 
-I prefer [Warp](https://www.warp.dev)
+I prefer [Wezterm](https://wezterm.org/)
+
+```sh
+brew install wezterm
+```
 
 ### Shell
 

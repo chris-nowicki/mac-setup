@@ -1,5 +1,11 @@
 eza
 lazygit
 pnpm
+powerlevel10k
 stow
+thefuck
+tldr
+wezterm
 zoxide
+zsh-autosuggestions
+zsh-syntax-highlighting
