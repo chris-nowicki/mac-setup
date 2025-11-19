@@ -13,10 +13,5 @@
 	"dependencies": {
 		"doctoc": "^2.2.1",
 		"husky": "^9.1.7"
-	},
-	"husky": {
-		"hooks": {
-			"pre-commit": "npm run toc && git add README.md"
-		}
 	}
 }
