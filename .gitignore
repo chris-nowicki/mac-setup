@@ -131,3 +131,5 @@ dist
 
 .husky/
 .husky/
+
+.DS_Store
