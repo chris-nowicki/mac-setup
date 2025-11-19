@@ -5,9 +5,10 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [My Mac Setup](#my-mac-setup)
 - [What MacBook do I have?](#what-macbook-do-i-have)
 - [OS Settings](#os-settings)
-  - [Desktop & Dock](#desktop--dock)
+  - [Desktop \& Dock](#desktop--dock)
   - [Finder](#finder)
 - [Github](#github)
   - [Github SSH Setup](#github-ssh-setup)
@@ -286,7 +287,7 @@ See installation instructions [here](https://github.com/nvm-sh/nvm#installing-an
 OR run this command (make sure v0.39.7 is still the latest)
 
 ```sh
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 ```
 
 Now that nvm is installed, you can install a specific version of node.js and use it:
