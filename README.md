@@ -9,6 +9,7 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 - [Homebrew](#homebrew)
 - [Github](#github)
   - [Github SSH Setup](#github-ssh-setup)
+  - [Multi-Account SSH Config (Work Computer Only)](#multi-account-ssh-config-work-computer-only)
   - [Clone This Repo](#clone-this-repo)
   - [Install Everything with Brewfile](#install-everything-with-brewfile)
 - [OS Settings](#os-settings)
@@ -73,6 +74,36 @@ Setup GitHub next so you can clone this repo and access the `Brewfile` for easy 
 - Follow [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to setup an ssh key for github
 - Follow [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) to add the ssh key to your github account
 - Follow [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection) to test the ssh connection
+
+### Multi-Account SSH Config (Work Computer Only)
+
+If this is a work machine, you'll need a second SSH key to keep personal and work GitHub accounts separate. Generate a key for each account following the guides above, then configure `~/.ssh/config` to route them automatically:
+
+```sh
+# Personal GitHub
+Host github.com
+    HostName github.com
+    AddKeysToAgent yes
+    UseKeychain yes
+    IdentityFile ~/.ssh/id_ed25519_personal
+    IdentitiesOnly yes
+
+# Work GitHub
+Host github-bc
+    HostName github.com
+    AddKeysToAgent yes
+    UseKeychain yes
+    IdentityFile ~/.ssh/id_ed25519_bc
+    IdentitiesOnly yes
+```
+
+Clone work repos using the `github-bc` host alias:
+
+```sh
+git clone git@github-bc:bigcommerce/repo-name.git
+```
+
+> **Note:** This pairs with the git `includeIf` config in [Dotfiles](https://github.com/chris-nowicki/Dotfiles) which automatically sets your work email for repos under `~/Dev/commerce/`.
 
 ### Clone This Repo
 
