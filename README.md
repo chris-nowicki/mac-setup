@@ -7,9 +7,10 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 
 - [What MacBook do I have?](#what-macbook-do-i-have)
 - [Homebrew](#homebrew)
-  - [Install Everything with Brewfile](#install-everything-with-brewfile)
 - [Github](#github)
   - [Github SSH Setup](#github-ssh-setup)
+  - [Clone This Repo](#clone-this-repo)
+  - [Install Everything with Brewfile](#install-everything-with-brewfile)
 - [OS Settings](#os-settings)
   - [Dock](#dock)
   - [Desktop & Stage Manager](#desktop--stage-manager)
@@ -63,6 +64,23 @@ To install it, open up the built in `Terminal` app and run this command:
 
 This will also install the xcode build tools which is needed by many other developer tools.
 
+## Github
+
+Setup GitHub next so you can clone this repo and access the `Brewfile` for easy batch installs.
+
+### Github SSH Setup
+
+- Follow [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to setup an ssh key for github
+- Follow [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) to add the ssh key to your github account
+- Follow [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection) to test the ssh connection
+
+### Clone This Repo
+
+```sh
+git clone git@github.com:chris-nowicki/Setup.git ~/Setup
+cd ~/Setup
+```
+
 ### Install Everything with Brewfile
 
 This repo includes a `Brewfile` that contains all CLI tools, GUI apps, fonts, and Mac App Store apps. Install everything in one command:
@@ -74,16 +92,6 @@ brew bundle --file=Brewfile
 This replaces the need to install apps individually. See the [Brewfile](./Brewfile) for the full list.
 
 > **Note:** Mac App Store apps require the `mas` CLI (included in the Brewfile) and you must be signed into the App Store first.
-
-## Github
-
-I like to setup github at this point so I can clone this repo to access the `Brewfile` for easy batch installs.
-
-### Github SSH Setup
-
-- Follow [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to setup an ssh key for github
-- Follow [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) to add the ssh key to your github account
-- Follow [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection) to test the ssh connection
 
 ## OS Settings
 
@@ -193,7 +201,6 @@ I use [RayCast](https://www.raycast.com/) (included in Brewfile).
 #### RayCast Plugins
 
 - [1Password](https://www.raycast.com/khasbilegt/1password)
-- [iMessage 2FA](https://www.raycast.com/yuercl/imessage-2fa)
 - [RayCast Homebrew Plugin](https://www.raycast.com/nhojb/brew) so we can easily install formulae and casks directly from RayCast.
 
 ## App Switching
@@ -227,10 +234,10 @@ All of the following are installed via the `Brewfile` with `brew bundle`:
 - [1password-cli](https://1password.com/) - 1Password command-line tool
 - [claude-code](https://claude.ai/code) - AI coding assistant
 - [cleanshot](https://cleanshot.com/) - Screenshot tool
-- [finetune](https://finetune.dev/) - Claude Code desktop client
+- [finetune](https://github.com/ronitsingh10/FineTune) - Menu bar app for per-app volume control and EQ
 - [discord](https://discord.com/) - Messaging / Community
 - [karabiner-elements](https://karabiner-elements.pqrs.org/) - Keyboard customization
-- [launchos](https://launchos.app/) - macOS setup automation
+- [launchos](https://launchos.app/) - App launcher
 - [notion](https://www.notion.so/) - Notes / Project management
 - [obs](https://obsproject.com/) - Streaming / Recording
 - [obsidian](https://obsidian.md/) - Note taking
