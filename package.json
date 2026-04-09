@@ -10,7 +10,7 @@
 	"keywords": [],
 	"author": "Chris Wix <chris@chrisnowicki.dev> (https://chrisnowicki.dev)",
 	"license": "MIT",
-	"dependencies": {
+	"devDependencies": {
 		"doctoc": "^2.2.1",
 		"husky": "^9.1.7"
 	}
