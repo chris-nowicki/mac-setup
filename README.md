@@ -291,6 +291,32 @@ These are installed via `mas` in the Brewfile:
 - Pixelmator Pro
 - Speedtest
 
+## VS Code
+
+My settings are optimized for a minimal, distraction-free setup since I primarily use [Claude Code](https://claude.ai/code) and only open the IDE for reviewing diffs and quick edits.
+
+Settings and CLAUDE.md config are backed up in [this gist](https://gist.github.com/chris-nowicki/9e05729dd8b0953c3d3bb1bd620a3257).
+
+**Extensions:**
+
+- [Astro](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode) - Astro language support
+- [Claude Code](https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code) - AI coding assistant
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - Spell checking
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Linting
+- [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml) - TOML support
+- [GitHub Actions](https://marketplace.visualstudio.com/items?itemName=github.vscode-github-actions) - Workflow support
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) - Git superpowers
+- [markdownlint](https://marketplace.visualstudio.com/items?itemName=davidanson.vscode-markdownlint) - Markdown linting
+- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) - File icons
+- [MDX](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx) - MDX language support
+- [Playwright](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright) - Test runner
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Code formatting
+- [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors) - Readable TS errors
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) - Tailwind support
+- [Todo Tree](https://marketplace.visualstudio.com/items?itemName=gruntfuggly.todo-tree) - Find TODOs
+- [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night) - Color theme
+- [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) - YAML formatting
+
 ## Command Line Tools
 
 All installed via the `Brewfile`:
