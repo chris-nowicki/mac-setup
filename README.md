@@ -267,12 +267,11 @@ All installed via the `Brewfile`:
 - [eza](https://eza.rocks/) - Modern replacement for `ls`
 - [gh](https://cli.github.com/) - GitHub CLI
 - [lazygit](https://github.com/jesseduffield/lazygit) - Terminal UI for git
-- [mole](https://github.com/nicnocquee/mole) - Local dev environment manager
+- [mole](https://github.com/tw93/mole) - Deep clean and optimize your Mac
 - [rulesync](https://github.com/nicnocquee/rulesync) - Sync AI coding rules across projects
 - [pnpm](https://pnpm.io/) - Fast package manager
 - [starship](https://starship.rs/) - Cross-shell prompt
 - [stow](https://www.gnu.org/software/stow/) - Symlink manager for dotfiles
-- [thefuck](https://github.com/nvbn/thefuck) - Corrects previous console command
 - [zoxide](https://github.com/ajeetdsouza/zoxide) - Smarter `cd` command
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) - Fish-like suggestions for zsh
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Syntax highlighting for zsh
